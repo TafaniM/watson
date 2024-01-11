@@ -2,8 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+// :root {}
 
 /* ====================================
 // reset rules
@@ -20,6 +19,7 @@ html {
 }
 
 body {
+  background-color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -42,3 +42,32 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 136px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 160px 0px 115px 0px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 140px 0px 85px 0px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #F40F97;
+  margin-top: 85px;
+}
